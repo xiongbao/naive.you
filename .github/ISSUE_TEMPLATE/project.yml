@@ -1,0 +1,53 @@
+name: "✨ 新增项目想法 (New Project Idea)"
+description: "提交一个新的域名及项目概念，用于展示在 xiang.mu 上"
+title: "[Project]: "
+labels: ["project-idea"]
+body:
+  - type: input
+    id: domain_name
+    attributes:
+      label: "域名 (Domain Name)"
+      description: "填写该项目的完整域名（右侧大字展示部分）"
+      placeholder: "e.g., xiang.mu"
+    validations:
+      required: true
+
+  - type: input
+    id: project_name
+    attributes:
+      label: "项目名称 (Project Name)"
+      description: "项目或产品的正式/代号名称"
+      placeholder: "e.g., Boring Studio, Cloud Sync"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: project_status
+    attributes:
+      label: "项目当前状态 (Project Status)"
+      description: "选择项目目前的推进进度"
+      options:
+        - "💡 概念期 (Idea)"
+        - "🚧 开发中 (In Progress)"
+        - "🚀 已发布 (Launched)"
+        - "💤 搁置中 (Paused)"
+    validations:
+      required: true
+
+  - type: input
+    id: project_tags
+    attributes:
+      label: "项目标签 (Tags)"
+      description: "用英文逗号分隔的标签列表"
+      placeholder: "e.g., Web3, Next.js, Hardware, Satire"
+    validations:
+      required: false
+
+  - type: textarea
+    id: project_tagline
+    attributes:
+      label: "项目一句话描述 (Tagline / Pitch)"
+      description: "展示在左侧列表的简短描述或定位"
+      placeholder: "例如：一个专门收集无聊且毫无价值的趣味项目的集合站。"
+    validations:
+      required: true
