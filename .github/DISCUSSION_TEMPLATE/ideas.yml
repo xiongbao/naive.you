@@ -3,8 +3,8 @@ labels: ["idea", "triage"]
 body:
   - type: textarea
     id: content
-    label: ""
     attributes:
+      label: ""
       value: |
         ```
         项目介绍
