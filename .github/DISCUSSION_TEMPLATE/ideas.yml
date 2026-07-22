@@ -3,6 +3,7 @@ labels: ["idea", "triage"]
 body:
   - type: textarea
     id: content
+    label: ""
     attributes:
       value: |
         ```
