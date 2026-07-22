@@ -1,0 +1,37 @@
+title: "[Idea] "
+labels: ["idea", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢提出想法！请按照下方格式填写详细内容。
+
+  - type: input
+    id: summary
+    attributes:
+      label: 一句话总结
+      description: 用简短的一句话描述你的想法。
+      placeholder: 例如：支持自动将 Discussion 导出为 Markdown
+    validations:
+      required: true
+
+  - type: textarea
+    id: detailed-description
+    attributes:
+      label: 详细描述
+      description: 请详细说明应用场景与预期效果。
+      value: |
+        ---
+        # 补充 context 信息（如需 yaml 头可在此硬编码）
+        ---
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: 相关模块
+      options:
+        - 前端 / UI
+        - 后端 / API
+        - CI/CD 流程
