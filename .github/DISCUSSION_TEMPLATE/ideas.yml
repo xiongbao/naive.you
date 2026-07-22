@@ -1,13 +1,9 @@
 title: "[Project](Domain)-2021"
 body:
 - type: markdown
-  value: |
-    ```
-    项目介绍
-    ```
-
-    ### 目标
-
-
-    ### 计划
+  value: "## Welcome!"
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to start a new discussion! If you need real-time help, join us on Discord.
       
