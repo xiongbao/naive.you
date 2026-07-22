@@ -3,5 +3,16 @@ body:
 - type: markdown
   attributes:
     value: |
-      Thanks for taking the time to start a new discussion! If you need real-time help, join us on Discord.
+      ```
+      description: text
+      ```
+
+      ### 目标
+
+
+      ### 计划
+
       
+- type: textarea
+  attributes:
+    label: "What's wrong?"     
