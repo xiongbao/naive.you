@@ -1,18 +1,12 @@
 title: "[Project](Domain)"
 labels: ["idea", "triage"]
 body:
-  - type: textarea
-    id: project-detail
-    attributes:
-      label: 项目详情
-      value: |
-        ```
-        项目介绍
-        ```
+  value: |
+    ```
+    项目介绍
+    ```
 
-        ### 目标
+    ### 目标
 
 
-        ### 计划
-    validations:
-      required: true
+    ### 计划
