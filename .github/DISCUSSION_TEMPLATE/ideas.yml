@@ -1,4 +1,4 @@
-title: "[项目名称](域名)"
+title: "[Project](Domain)"
 labels: ["idea", "triage"]
 body:
   - type: textarea
@@ -9,10 +9,10 @@ body:
         ```
         项目介绍
         ```
-        ---
-        ## 目标
 
-        ---
-        ## 计划
+        ### 目标
+
+
+        ### 计划
     validations:
       required: true
