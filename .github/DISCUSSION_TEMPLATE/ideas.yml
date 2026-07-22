@@ -1,8 +1,8 @@
 title: "[Project](Domain)-2021"
 body:
   - type: markdown
-  attributes:
-    value: "Bugs are the worst!"
+    attributes:
+      value: "Bugs are the worst!"
   - type: textarea
     id: content
     attributes:
