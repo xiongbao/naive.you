@@ -1,18 +1,1 @@
 title: "[Project](Domain)-2021"
-body:
-  - type: markdown
-    attributes:
-      value: "Bugs are the worst!"
-  - type: textarea
-    id: content
-    attributes:
-      label: "项目详情"
-      value: |
-        ```
-        项目介绍
-        ```
-
-        ### 目标
-
-
-        ### 计划
